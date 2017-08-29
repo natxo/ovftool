@@ -43,5 +43,8 @@ just like the powershell scripts do:
 
 `ovftool --sourceType="VI" --I:sourceSessionTicket="paste here the ticket" vi://esxhost`
 
-Will get you the list of vms on the host withouth exposing yet another
-password on the cli
+will get you the list of vms on the host withouth exposing yet another
+password on the cli. This ticket is valid for just one session, so if
+you need several ovftool commands you will need to retrieve a ticket for
+each one.
+
